@@ -78,7 +78,7 @@ We implemented the code provided in the Kaggle dataset with the following modifi
 		   'MNK', 'AMG', 'XEC', 'NAVI', 'GMCR', 'GGP', 'KORS', 'RIG', 'MAC', 'DLPH', 'PETM', 'KRFT', 'ADT', 'ESV', 'ALXN', 'FOSL', 'WPX',
 		   'TRIP', 'PRGO', 'GAS', 'CBE', 'ANR', 'COV', 'JOY', 'CVC', 'NFX', 'TYC', 'QEP', 'HP', 'MJN', 'CLF', 'SAI', 'PCLN', 'ARG', 'FTI'
 		   'OI', 'HRS', 'AKS', 'COG', 'MEE', 'LO', 'RRC', 'GME', 'JEC', 'TDC', 'TSO', 'LUK', 'KFT', 'ESRX', 'SBL', 'AYE', 'ABK', 'JDSU',
-		   'CVG', 'YHOO']"
+		   'CVG', 'YHOO']
   ```
   
 *stock_data_elliptical.csv* -- preprocess the historic dataset of stocks to get the dataset we will test -- stock_data_elliptical.csv
