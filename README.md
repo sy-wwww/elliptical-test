@@ -80,8 +80,25 @@ We implemented the code provided in the Kaggle dataset with the following modifi
 		   'OI', 'HRS', 'AKS', 'COG', 'MEE', 'LO', 'RRC', 'GME', 'JEC', 'TDC', 'TSO', 'LUK', 'KFT', 'ESRX', 'SBL', 'AYE', 'ABK', 'JDSU',
 		   'CVG', 'YHOO']
   ```
+  The historical data for each stock is stored in the folder stock_data, and the combined dataset is saved as all_stocks_5yr.csv.
+
+The combined dataset has columns Date	High	Low	Open	Close	Volume	Adj Close	Name corresponding to corresponding date, high price ... 
+# Structure of the Combined Dataset
+
+The combined dataset, `all_stocks_5yr.csv`, contains historical stock data with the following columns:
+- **Date**: The trading date for the stock data.
+- **High**: The highest price of the stock on that date.
+- **Low**: The lowest price of the stock on that date.
+- **Open**: The open price of the stock on that date.
+- **Close**: The close price of the stock on that date adjusted for splits.
+- **Volume**: The total number of shares traded on that date.
+- **Adj Close**: The adjusted close price adjusted for splits and dividend and/or capital gain distributions.
+- **Name**: The ticker symbol of the stock (e.g., `AAPL` for Apple, `MMM` for 3M Company).
+
+This dataset allows for a detailed analysis of stock performance over time, with each row representing the data for a specific stock on a specific date.
+
   
-*stock_data_elliptical.csv* -- preprocess the historic dataset of stocks to get the dataset we will test -- stock_data_elliptical.csv
+*stock_data_elliptical.csv* -- preprocess the historical dataset of stocks to get the dataset we will test -- stock_data_elliptical.csv
 
 *stock_data_elliptical.csv* -- the dataset used in Section 4.3.
 
