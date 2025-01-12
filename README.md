@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 *elliptical_level.m* -- calculate the empirical level for the proposed test with a 5% nominal level.
 
-
+*beta_prime.m* -- Use Beta distribution to generate Beta Prime distribution. The input is $n, p$ and $\tau$, the function generate $n$ dimensional independent Bete Prime distribution with parameter  $\frac{(1+p+tau)*p}{\tau}, \frac{1+p+2*tau}{tau}$
 
 ## Power
 
