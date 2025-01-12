@@ -97,16 +97,19 @@ The 'all_stocks_5yr.csv' dataset contains historical stock data with the followi
   
 *stock_preprocessing.R* -- Preprocess the `all_stocks_5yr.csv` dataset to generate the testing dataset, `stock_data_elliptical.csv`.
 
-*stock_data_elliptical.csv* -- the dataset used in Section 4.3, the dataset is structured such that each row represents a specific datetime, and each column corresponds to a stock.
+*stock_data_elliptical.csv* -- The dataset used in Section 4.3; the dataset is structured such that each row represents a specific datetime, and each column corresponds to a stock.
 
 *stock_dataset.R* -- The code used in Section 4.3 calculates the power of the elliptical test and the normality test.
 
 
 ### Breast cancer dataset
-The dataset is available in the R package \tt{cancerdata}
+The dataset is available in the R package `cancerdata`, with a detailed description provided in the documentation, `cancerdata.pdf`. For our analysis, we use the VIJVER dataset. The original data is a \(24481 \times 295\) matrix, where each row represents a gene, and each column corresponds to a tumor sample.
 
+*cancerdata.pdf* -- A comprehensive description of the R package `cancerdata` is provided.
 
-*breast_cancer.csv* -- the dataset used in Section 4.4.
+*breast_cancer_preprocessing.R* -- Load and preprocess the VIJVER dataset to generate the testing dataset, `elliptical_breast_cancer.csv`.
+
+*breast_cancer.csv* -- The dataset used in Section 4.4; the dataset is structured such that each row represents a specific tumor sample, and each column corresponds to a gene.
 
 *breast_cancer_dataset.R* -- The code used in Section 4.4 calculates the power of the elliptical test and the normality test.
 
