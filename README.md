@@ -27,6 +27,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 *power_plot.R* -- plot the figures in Section 4.2.
 
+*funcs.r* and *funcs2.R* -- functions used in the normality test.
+
 ### Stock dataset
 There are two main ways to get stock history data from Yahoo Finance:
 
@@ -92,16 +94,19 @@ The 'all_stocks_5yr.csv' dataset contains historical stock data with the followi
 - **Adj Close**: The adjusted close price adjusted for splits and dividend and/or capital gain distributions.
 - **Name**: The ticker symbol of the stock (e.g., `AAPL` for Apple, `MMM` for 3M Company).
 
-
   
 *stock_preprocessing.R* -- Preprocess the `all_stocks_5yr.csv` dataset to generate the testing dataset, `stock_data_elliptical.csv`.
 
 *stock_data_elliptical.csv* -- the dataset used in Section 4.3, the dataset is structured such that each row represents a specific datetime, and each column corresponds to a stock.
 
-*stock_dataset.R* -- the code used in Section 4.3.
+*stock_dataset.R* -- The code used in Section 4.3 calculates the power of the elliptical test and the normality test.
+
+
+### Breast cancer dataset
+The dataset is available in the R package \tt{cancerdata}
+
 
 *breast_cancer.csv* -- the dataset used in Section 4.4.
 
-*breast_cancer_dataset.R* -- the code used in Section 4.4.
+*breast_cancer_dataset.R* -- The code used in Section 4.4 calculates the power of the elliptical test and the normality test.
 
-*funcs.r* and *funcs2.R* -- functions used in the normality test.
