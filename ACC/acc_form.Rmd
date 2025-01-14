@@ -44,7 +44,7 @@ If box above is checked and if no simulated/synthetic data files are provided by
 Provide a short (< 100 words), high-level description of the data
 -->
 
-We provide the datasets used in the experimental section, which are also available online. A detailed guide on accessing the original datasets is included in the README file.
+We provide the datasets used in the experimental section.
 
 ## Availability
 
@@ -56,7 +56,7 @@ If the data are publicly available, see the *Publicly available data* section. O
 
 ### Publicly available data
 
-- [x] Data are available online at: https://finance.yahoo.com/lookup, https://www.bioconductor.org/packages/release/data/experiment/html/cancerdata.html
+- [x] Data are available online at: https://www.bioconductor.org/packages/release/data/experiment/html/cancerdata.html
 
 - [x] Data are available as part of the paper’s supplementary material.
 
@@ -66,7 +66,7 @@ If the data are publicly available, see the *Publicly available data* section. O
 
 
 <!-- If data are available by request to the authors or some other data owner, please make sure to explain the process of requesting access to the data. -->
-For the Yahoo dataset, each stock has its own dedicated webpage. For example, the page \url{https://finance.yahoo.com/quote/MMM/history/} provides the historical data for 3M Company (MMM). To access the overall dataset, we provide the link to the Yahoo Finance Lookup page: \url{https://finance.yahoo.com/lookup}. A detailed guide on accessing the original datasets is included in the README file, and the datasets are also provided as part of the paper’s supplementary material.
+The dataset `stock_data_elliptical.csv` is included as supplementary material for the paper, while the breast cancer dataset is publicly available online.
 
 
 ### Non-publicly available data
@@ -98,15 +98,15 @@ Check all that apply
 A data dictionary provides information that allows users to understand the meaning, format, and use of the data.
 -->
 
-- [x] Provided by authors in the following file(s): all_stocks_5yr.csv, stock_data_elliptical.csv, elliptical_breast_cancer.csv
+- [x] Provided by authors in the following file(s): stock_data_elliptical.csv
 - [ ] Data file(s) is(are) self-describing (e.g., netCDF files)
-- [ ] Available at the following URL: 
+- [x] Available at the following URL: https://bioconductor.org/packages/release/data/experiment/html/cancerdata.html
 
-We described the process of obtaining the combined historical stock data file, `all_stocks_5yr.csv` in the README file. The columns of `all_stocks_5yr.csv` include prices, volume, and stock names, as defined in the README file. The code in `stock_preprocessing.R` preprocesses the `all_stocks_5yr.csv` dataset to generate the testing dataset, `stock_data_elliptical.csv`. The dataset `stock_data_elliptical.csv` is organized such that each row corresponds to a specific datetime, and each column represents a stock.
+The dataset `stock_data_elliptical.csv` contains the monthly log returns of 480 stocks over a span of 120 months. It is structured such that each row represents a specific month, and each column corresponds to a stock.
 
 
 
-The breast cancer dataset is available in the R package `cancerdata`, with a detailed description provided in the documentation `cancerdata.pdf` or online at \url{https://bioconductor.org/packages/release/data/experiment/manuals/cancerdata/man/cancerdata.pdf}. For our analysis, we use the VIJVER dataset from the package. The original data is a $24481 \times 295$ matrix, where each row represents a gene and each column corresponds to a tumor sample. The code in `breast_cancer_preprocessing.R` is used to load and preprocess the VIJVER dataset, generating the testing dataset `elliptical_breast_cancer.csv`. The dataset `elliptical_breast_cancer.csv` is structured such that each row represents a specific tumor sample, and each column corresponds to a gene. 
+The breast cancer dataset is available in the R package `cancerdata`, with a detailed description provided in the documentation `cancerdata.pdf` or online at \url{https://bioconductor.org/packages/release/data/experiment/manuals/cancerdata/man/cancerdata.pdf}. For our analysis, we use the VIJVER dataset from the package. The original data is a $24481 \times 295$ matrix, where each row represents a gene and each column corresponds to a tumor sample. 
 
 
 ### Additional Information (optional)
@@ -122,6 +122,7 @@ OPTIONAL: Provide any additional details that would be helpful in understanding 
 <!--
 Provide a short (< 100 words), high-level description of the code. If necessary, more details can be provided in files that accompany the code. If no code is provided, please state this and say why (e.g., if the paper contains no computational work).
 -->
+We provide R code and Matlab code for the proposed method.
 
 ## Description
 
