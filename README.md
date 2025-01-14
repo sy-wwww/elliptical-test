@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Power
 
 
-*tests.R* -- contains the function 'elliptical_test' which calculates $T_n$, $\sigma_n^2$ and the p-value of the proposed test, as well as the function 'normality_test' which calculates the p-value of the normality test.
+*tests.R* -- contains the function `elliptical_test` which calculates $T_n$, $\sigma_n^2$ and the p-value of the proposed test, as well as the function `normality_test` which calculates the p-value of the normality test.
 
 *elliptical_power.R* -- compute the empirical power for both the proposed test and the normality test.
 
