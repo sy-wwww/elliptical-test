@@ -1,9 +1,23 @@
 file = getwd()
 source(paste0(file,"/tests.R"))
 
+# BiocManager::install("cancerdata")
+library(cancerdata)
+data("VIJVER")
+a3 = assayData(VIJVER)
+a3=a3$exprs
 
-breastCancer = read.csv(paste0(file,"/elliptical_breast_cancer.csv"), header = TRUE) 
-data = as.matrix(breastCancer)
+# Remove genes with missing values
+a3_c = na.omit(a3)
+dim(a3_c)
+
+
+# Transform it into an n*p matrix
+a3_c = t(a3_c)
+
+# Centering 
+data = scale(a3_c, center = TRUE, scale = FALSE)
+data = as.matrix(data)
 
 
 p = 200 #200, 300, 500
