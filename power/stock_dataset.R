@@ -1,7 +1,7 @@
 file = getwd()
 source(paste0(file,"/tests.R"))
 
-data = read.csv(paste0(file,"/stock_data_elliptical.csv"),header = FALSE)
+data = read.csv(paste0(file,"/stock_data_elliptical.csv"),row.names = 1)
 data = as.matrix(data)
 
 
