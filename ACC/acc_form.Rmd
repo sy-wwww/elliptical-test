@@ -212,7 +212,7 @@ The provided workflow reproduces:
 - [ ] All tables and figures in the paper
 - [ ] Selected tables and figures in the paper, as explained and justified below:
 
-The real data results of the proposed test can be reproduced, but the normality test involves some randomness.
+The real data results of the proposed test can be reproduced, but the normality test involves some randomization.
 
 ## Workflow
 
