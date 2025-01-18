@@ -18,7 +18,7 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 ## Power
 
 
-*tests.R* -- This script contains the function 'elliptical_test', which calculates the elliptical test statistic $T_n$, as well as an estimate for its variance, and its p-value. In addition, this script contains the function 'normality_test', which calculates the p-value of the normality test.
+*tests.R* -- This script contains the function `elliptical_test`, which calculates the elliptical test statistic $T_n$, as well as an estimate for its variance, and its p-value. In addition, this script contains the function 'normality_test', which calculates the p-value of the normality test.
 
 *elliptical_power.R* -- This script supports the experiments in Section 4.2 of the paper, and computes p-valueS for both the elliptical test and the normality test.
 
@@ -35,8 +35,8 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 
 
 ### Breast cancer dataset
-This is the VIJVER dataset, available in the R package 'cancerdata'. Documentation is provided in the manual 'cancerdata.pdf' located in the 'power' directory of the reproducibility materials. In brief, the VIJVER dataset is structured such that each row represents a gene (variable), and each column corresponds to a tumor sample.
+This is the VIJVER dataset, available in the R package 'cancerdata'. Documentation is provided in the manual `cancerdata.pdf` located in the `power` directory of the reproducibility materials. In brief, the VIJVER dataset is structured such that each row represents a gene (variable), and each column corresponds to a tumor sample.
 
-*cancerdata.pdf* -- This is the manual for the R package 'cancerdata'.
+*cancerdata.pdf* -- This is the manual for the R package `cancerdata`.
 
 *breast_cancer_dataset.R* -- This script supports the experiments in Section 4.4 of the paper, and calculates p-values for the elliptical test and the normality test.
