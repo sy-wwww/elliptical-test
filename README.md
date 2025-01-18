@@ -12,7 +12,7 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 
 *elliptical_level.m* -- This script calculates the empirical level for the proposed test with a 5% nominal level.
 
-*beta_prime.m* -- This script generates Beta Prime random variables. The input parameters are a positive integer n, a positive integer p, and a positive number tau. The function generates n i.i.d. Beta Prime random variables with parameters $\frac{(1 + p + \tau)  p}{\tau}$ and $\frac{1 + p + 2\tau}{\tau}$.
+*beta_prime.m* -- This script generates Beta Prime random variables. The input parameters are a positive integer n, a positive integer p, and a positive number $\tau$. The function generates n i.i.d. Beta Prime random variables with parameters $\frac{(1 + p + \tau)  p}{\tau}$ and $\frac{1 + p + 2\tau}{\tau}$.
 
 
 ## Power
