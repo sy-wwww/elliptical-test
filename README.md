@@ -6,8 +6,8 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 ## Level 
 
 
-*elliptical_test.m* -- This script calculates the elliptical test statistic T_n, as well as an estimate for its variance, and its p-value.
-
+*elliptical_test.m* -- This script calculates the elliptical test statistic $T_n$, as well as an estimate for its variance, and its p-value.
+\
 *setting.m* -- This script contains the settings used in Section 4.1 to assess the level of the proposed test.
 
 *elliptical_level.m* -- This script calculates the empirical level for the proposed test with a 5% nominal level.
@@ -18,7 +18,7 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 ## Power
 
 
-*tests.R* -- This script contains the function 'elliptical_test', which calculates the elliptical test statistic T_n, as well as an estimate for its variance, and its p-value. In addition, this script contains the function 'normality_test', which calculates the p-value of the normality test.
+*tests.R* -- This script contains the function 'elliptical_test', which calculates the elliptical test statistic $T_n$, as well as an estimate for its variance, and its p-value. In addition, this script contains the function 'normality_test', which calculates the p-value of the normality test.
 
 *elliptical_power.R* -- This script supports the experiments in Section 4.2 of the paper, and computes p-valueS for both the elliptical test and the normality test.
 
