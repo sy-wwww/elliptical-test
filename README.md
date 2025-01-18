@@ -1,6 +1,6 @@
 # Code for Testing Elliptical Models in High Dimensions
 
-
+For details on the methodology, refer to the paper on arXiv: https://arxiv.org/abs/2408.05514.
 The contents of the 'level' and 'power' directories of the reproducibility materials are described below. 
 
 ## Level 
