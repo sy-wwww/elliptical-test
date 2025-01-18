@@ -35,7 +35,7 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 
 
 ### Breast cancer dataset
-This is the VIJVER dataset, available in the R package 'cancerdata'. Documentation is provided in the manual `cancerdata.pdf` located in the `power` directory of the reproducibility materials. In brief, the VIJVER dataset is structured such that each row represents a gene (variable), and each column corresponds to a tumor sample.
+This is the VIJVER dataset, available in the R package `cancerdata`. Documentation is provided in the manual `cancerdata.pdf` located in the `power` directory of the reproducibility materials. In brief, the VIJVER dataset is structured such that each row represents a gene (variable), and each column corresponds to a tumor sample.
 
 *cancerdata.pdf* -- This is the manual for the R package `cancerdata`.
 
