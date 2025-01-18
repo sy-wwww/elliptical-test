@@ -18,7 +18,7 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 ## Power
 
 
-*tests.R* -- This script contains the function `elliptical_test`, which calculates the elliptical test statistic $T_n$, as well as an estimate for its variance, and its p-value. In addition, this script contains the function 'normality_test', which calculates the p-value of the normality test.
+*tests.R* -- This script contains the function `elliptical_test`, which calculates the elliptical test statistic $T_n$, as well as an estimate for its variance, and its p-value. In addition, this script contains the function `normality_test`, which calculates the p-value of the normality test.
 
 *elliptical_power.R* -- This script supports the experiments in Section 4.2 of the paper, and computes p-valueS for both the elliptical test and the normality test.
 
@@ -28,7 +28,7 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 
 ### Stock dataset
 
-*stock_data_elliptical.csv* -- The stock market dataset discussed in section 4.3 of the paper is `stock_data_elliptical.csv` in the 'power' directory of the reproducibility materials, which consists of 120 rows and 480 columns. The columns correspond to different stocks, which are labeled by their respective ticker symbols, e.g. AMZN for Amazon. The rows correspond to dates, which are labeled in the month/day/year format. Each numerical entry in the .csv file represents the monthly log return of a given stock (column) computed on a given date (row).
+*stock_data_elliptical.csv* -- The stock market dataset discussed in section 4.3 of the paper is `stock_data_elliptical.csv` in the `power` directory of the reproducibility materials, which consists of 120 rows and 480 columns. The columns correspond to different stocks, which are labeled by their respective ticker symbols, e.g. AMZN for Amazon. The rows correspond to dates, which are labeled in the month/day/year format. Each numerical entry in the .csv file represents the monthly log return of a given stock (column) computed on a given date (row).
 
 
 *stock_dataset.R* -- This script supports the experiments in Section 4.3 of the paper, and calculates p-values for the elliptical test and normality test. 
