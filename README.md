@@ -1,11 +1,5 @@
----
-title: "Code for Testing Elliptical Models in High Dimensions"
-output: html_document
----
+# Code for Testing Elliptical Models in High Dimensions
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 The contents of the 'level' and 'power' directories of the reproducibility materials are described below. 
 
