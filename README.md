@@ -7,7 +7,7 @@ The contents of the 'level' and 'power' directories of the reproducibility mater
 
 
 *elliptical_test.m* -- This script calculates the elliptical test statistic $T_n$, as well as an estimate for its variance, and its p-value.
-\
+
 *setting.m* -- This script contains the settings used in Section 4.1 to assess the level of the proposed test.
 
 *elliptical_level.m* -- This script calculates the empirical level for the proposed test with a 5% nominal level.
