@@ -36,5 +36,5 @@ for (i in 1:N) {
 }
 
 
-mean(re_normality[,1])
-mean(re_elliptical[,3])
+median(re_normality[,1])
+median(re_elliptical[,3])
